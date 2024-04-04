@@ -16,7 +16,7 @@ const average = document.querySelector("li[data-testid=word-length-average]")
 
 
 textarea.addEventListener("input", function () {
-  WordCount.innerHTML = "palabras: " + analyzer.getWordCount(textarea.value)
+  WordCount.innerHTML = "palabras: " + analyzer.getWordCount(textarea.value) //(textarea.value)(recibe,devuelve)
   characterCount.innerHTML = "caracteres: " + analyzer.getCharacterCount(textarea.value)
   excluding.innerHTML = "caracteres sin espacio: " + analyzer.getCharacterCountExcludingSpaces(textarea.value)
   number.innerHTML = "numeros: " + analyzer.getNumberCount(textarea.value)
@@ -33,4 +33,4 @@ Limpiar.addEventListener("click", () => {
   sumnumber.innerHTML = "total numeros: " + 0
   average.innerHTML = "media: " + 0
 
-  });
+});
