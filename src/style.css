@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+
+}
+html {
+
+    font-family:"Roboto", sans-serif5;
+
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    opacity: .6;
+    height: 100px;
+
+}
+main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color:#e5bdca;
+}
+
+
+textarea[name="user-input"] {
+
+    width: 200px;
+    height: 100px;
+    border: 3px solid #44354a;
+    width: 300px; 
+    height: 300px; 
+    resize: none;
+
+
+}
+
+.item {
+
+    width: 100px;
+    border-width: 5px solid black;
+    margin:10px ;
+    padding: 5px;
+    background-color: #976682;
+    text-align: center;
+    display: flex;
+   opacity: .7;
+    justify-content: center;
+    
+
+}
+
+footer {
+    text-align: center;
+    
+}
+
+#reset-button {
+    text-align: center;
+    background-color:#de91aa;
+    border: none;
+    color: black;
+    padding: 5px 44px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 20px; /* margen para separar el boton del elemento superior*/
+
+}
+
